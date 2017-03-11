@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol CBLJSONCoding <NSObject>
 
-@property (readonly, nonatomic) NSDictionary* jsonRepresentation;
+@property (readonly, nonatomic) id jsonRepresentation;
 
 @end
 
